@@ -1,0 +1,106 @@
+.top{
+    background-color: #E4F9F5; 
+    text-align: center;  
+}
+
+body{
+    background-color: #E4F9F5;  
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.top-cloud{
+    position: absolute;
+    right:200px;
+    top:100px;
+}
+.bot-cloud{
+    position: absolute;
+    top:200px;
+}
+.mount{
+    
+    margin: 0px 100px 100px;
+}
+h1{
+    margin-top: 100px;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 0px;
+    font-size: 5.625rem;
+    
+    /* 16px=100%=1em that is 1 times size of M
+    90px/16=5.625 em
+    rem - without getting affected by root value 
+    */
+    color: #66BFBF;
+    /*line-height: 2px;*/
+}
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.profile-pic{
+    
+    width: 25%;
+    border-radius: 100%;
+}
+.midd{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.pic{
+    width: 55%;
+    border-radius: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.image-skill{
+    display: inline-block;
+    margin: 0px;
+}
+.button{
+    background-color: #11999E;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    margin-bottom: 5px;
+   
+}
+hr{
+    border: dotted solid 6px;
+    border-bottom: none;
+    width:4%;
+    color: grey;
+}
+.bottom{
+    margin: 0px;
+    margin-top: 30px;
+    background-color: #66BFBF;
+    padding-top: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.footer-link{
+    margin:7px;
+    text-decoration: none;
+    padding: 50px 0 30px;
+}
+a:hover{
+    color: #E4F9F5;
+}
+.copyw{
+    color: #EAF6F6;
+}
